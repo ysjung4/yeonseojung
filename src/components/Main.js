@@ -4,7 +4,6 @@ import React from 'react';
 import Header from './Header';
 import Experience from "./Experience";
 import Project from "./Projects";
-import About from "./About";
 import Footer from "./Footer";
 
 
