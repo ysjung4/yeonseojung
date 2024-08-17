@@ -1,5 +1,5 @@
 body {
-  font-family: "Anton SC", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
@@ -35,12 +35,55 @@ header.major h2 {
   text-align: left;
 }
 
-.experience-item {
+.career-title {
+  width: 100%;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 15px;
   background: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.experience-item {
+  margin-bottom: 0px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.experience-content {
+  display: flex;
+  align-items: center;
+}
+.tech-stack{
+  margin: 5px 0 5px 30px;
+}
+
+.tech-tag {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 15px;
+  font-size: 14px;
+  align-items: center;
+}
+
+
+.experience-image {
+  width: 300px; /* 이미지 크기를 조정하세요 */
+  height: 200px;
+  margin: 20px 0 0 0;
+  /*margin-right: 15px; !* 이미지와 텍스트 사이의 간격 *!*/
+  border-radius: 8px;
+  object-fit: cover;
+  justify-content: center;
+   }
+
+.career-title h3 {
+  margin:20px;
+  font-size: 1.2em;
 }
 
 .experience-item h3 {
@@ -76,6 +119,7 @@ header.major h2 {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+
 }
 
 
@@ -84,16 +128,19 @@ header.major h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
+  text-align: center;
 }
 
+
+
 .projects2-item {
-  background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: calc(33.333% - 20px); /* 3 items per row, accounting for gap */
   box-sizing: border-box;
   transition: transform 0.3s ease;
+  background: lightgrey;
 }
 
 .projects-item:hover {
@@ -111,12 +158,84 @@ header.major h2 {
 /* Footer.css */
 
 .footer {
+  height: 50px;
+  margin-top: 100px;
   background-color: #333;
   color: #fff;
   padding: 20px 0;
   text-align: center;
+
 }
 
 .footer p {
   margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.about-me-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.email-link {
+  text-decoration: none;
+  color: black; /* 링크 텍스트를 검정색으로 */
+  display: flex;
+  align-items: center;
+}
+
+.email-link svg {
+  fill: black; /* SVG 아이콘을 검정색으로 */
+  margin-right: 8px; /* 아이콘과 텍스트 사이 간격 */
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* 아이콘 간의 간격 */
+}
+
+.contact-link {
+  text-decoration: none;
+  color: black; /* 링크 텍스트와 아이콘을 검정색으로 설정 */
+  display: flex;
+  align-items: center;
+}
+
+.contact-link svg {
+  fill: black; /* SVG 아이콘을 검정색으로 설정 */
+  margin-right: 8px; /* 아이콘과 텍스트 사이의 간격 */
+}
+
+.about-me-section, .education-section, .skills-section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #e0e0e0;
+  color: #333;
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px 10px 5px 0;
+  border-radius: 15px;
+  font-size: 14px;
 }
