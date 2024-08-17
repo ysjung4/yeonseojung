@@ -1,7 +1,6 @@
 import React from 'react';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
-import CV from './components/CV'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // BrowserRouter import
 import './App.css';
 import About from "./components/About"; // 전역 스타일 import

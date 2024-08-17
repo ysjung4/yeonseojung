@@ -1,9 +1,6 @@
 // src/components/Header.js
 
 import React from 'react';
-import * as PropTypes from "prop-types";
-import { Flex, Card, Link, Text, Box, Inset, Strong, Kbd, Em, Code, Badge, Grid, Avatar } from '@radix-ui/themes';
-
 
 const Projects = () => {
     const projects = [
