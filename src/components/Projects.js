@@ -51,7 +51,7 @@ const Projects = () => {
                             <a href={projects.link} target="_blank" rel="noopener noreferrer">
                                 <img
                                     src={projects.path}
-                                    alt="image"
+                                    alt={projects.title}
                                     className="experience-image"
                                 />
                             </a>
