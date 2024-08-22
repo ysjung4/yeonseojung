@@ -6,7 +6,7 @@ import React from 'react';
 const Experience = () => {
     const experiences = [
         {
-            techStack: ["Vue.js", "Node.js"],
+            techStack: ["Vue.js", "Node.js", "Vuetify"],
             title: "Ocare M (Hybrid App_2 for KB Healthcare) - Sept 2023 ~ Mar 2024",
             description: "Integrated the Naver Maps API and REST API to develop a feature for finding nearby hospitals/pharmacies based on the user's current location. Connected to a simplified personal authentication API to retrieve health checkup results."
         },
