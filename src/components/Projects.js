@@ -14,10 +14,10 @@ const Projects = () => {
 
         {
             techStack: ["React", "Node.js"],
-            path:'/images/screenshoot1.png',
+            path:'/images/store.png',
             link: "https://stockmanaging.netlify.app/",
-            title: "Shopping Cart Program",
-            description: "Developed an inventory management shopping cart program that tracks product quantities. "
+            title: " online shopping",
+            description: "Developed using open APIs to create a realistic online shopping environment."
         },
         {
             techStack: ["React", "Node.js"],
