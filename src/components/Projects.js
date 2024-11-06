@@ -6,7 +6,7 @@ const Projects = () => {
     const projects = [
         {
             techStack: ["Vue.js", "Node.js"],
-            path:'/images/screenshoot2.png',
+            path:'/images/screenshoot4.png',
             link: "https://findnhshospital.netlify.app/",
             title: "Hospital Finder",
             description: "Developed a location-based hospital finder by integrating the NHS Open API. ",
