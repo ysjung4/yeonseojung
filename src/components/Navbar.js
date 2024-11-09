@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar">
             <Link to="/">PROJECTS</Link>
             <Link to="/about">ABOUT ME</Link>
-            <a href="/yeonseojung_cv.pdf" download="yeonseojung_cv.pdf"> {/* 실제 파일 경로와 파일 이름으로 변경 */}
+            <a href="/YeonseoJung.pdf" download="YeonseoJung.pdf"> {/* 실제 파일 경로와 파일 이름으로 변경 */}
                 Download CV
             </a>
         </nav>

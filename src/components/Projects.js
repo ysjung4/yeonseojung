@@ -8,15 +8,15 @@ const Projects = () => {
             techStack: ["Vue.js", "Node.js"],
             path:'/images/screenshoot4.png',
             link: "https://findnhshospital.netlify.app/",
-            title: "Hospital Finder",
-            description: "Developed a location-based hospital finder by integrating the NHS Open API. ",
+            title: "HealthAssist",
+            description: "Developed a healthcare app utilizing the NHS Open API to provide users with a symptom checker and hospital finder. ",
         },
 
         {
             techStack: ["React", "Node.js"],
             path:'/images/store.png',
             link: "https://stockmanaging.netlify.app/",
-            title: " online shopping",
+            title: " VirtuMall",
             description: "Developed using open APIs to create a realistic online shopping environment."
         },
         {
