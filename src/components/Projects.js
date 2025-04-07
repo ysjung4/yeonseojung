@@ -5,22 +5,22 @@ import React from 'react';
 const Projects = () => {
     const projects = [
         {
-            techStack: ["Vue.js", "Node.js"],
-            path:'/images/screenshoot4.png',
+            techStack: ["React", "JavaScript (ES6+)","HTML","CSS", "NHS API", "Google Maps API"],
+            path:'/images/screenshoot5.png',
             link: "https://findnhshospital.netlify.app/",
-            title: "HealthAssist",
-            description: "Developed a healthcare app utilizing the NHS Open API to provide users with a symptom checker and hospital finder. ",
+            title: "HealthMate",
+            description: "Developed a healthcare app utilizing the NHS Open API. ",
         },
 
         {
-            techStack: ["React", "Node.js"],
+            techStack: ["React", "JavaScript (ES6+)","HTML","CSS", "Fake Store API"],
             path:'/images/store.png',
             link: "https://stockmanaging.netlify.app/",
             title: " VirtuMall",
             description: "Developed using open APIs to create a realistic online shopping environment."
         },
         {
-            techStack: ["React", "Node.js"],
+            techStack: ["React", "JavaScript (ES6+)      ","HTML","CSS"],
             path:'/images/screenshoot3.png',
             link: "https://gamjaworld.netlify.app",
             title: "Gamja's World",
