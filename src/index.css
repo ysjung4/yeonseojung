@@ -1,12 +1,12 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Helvetica Neue', sans-serif
   monospace;
 }
 
@@ -24,59 +24,78 @@ header.major h2 {
 .container-md {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.5rem;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
-.major {
+header.major {
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
+header.major h2 {
+  font-size: 1.8rem;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
 .career-item {
-  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
 }
 
-.career-title {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 15px;
-  background: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.career-title h3 {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
 }
+
 .experience-item {
-  display : block;
-  margin-bottom: 0px;
-  padding: 10px;
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: white;
   border-radius: 8px;
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e4e4e4;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
 }
 
+.experience-item ul {
+  margin: 0.3rem 0;
+  padding-left: 1rem;
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
 
-.experience-content {
+.tech-stack {
+  margin-top: 0.5rem;
+  padding-left: 1rem; 
   display: flex;
-  align-items: center;
-}
-.tech-stack{
-  margin: 5px 0 5px 30px;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 
 .tech-tag {
-  display: inline-block;
-  background-color: #e0e0e0;
+  background-color: #efefef;
   color: #333;
-  padding: 10px;
-  margin: 5px 5px 0 0;
-  border-radius: 15px;
-  font-size: 14px;
-  align-items: center;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 16px;
+  border: 1px solid #ccc;
 }
 
 
 .experience-image {
-  width: 300px; /* 이미지 크기를 조정하세요 */
+  width: 300px; 
   height: 200px;
   margin: 20px 0 0 0;
-  /*margin-right: 15px; !* 이미지와 텍스트 사이의 간격 *!*/
+  /*margin-right: 15px; !*!*/
   border-radius: 8px;
   object-fit: cover;
   justify-content: center;
@@ -138,7 +157,7 @@ header.major h2 {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: calc(33.333% - 20px); /* 3 items per row, accounting for gap */
+  width: calc(33.333% - 20px); 
   box-sizing: border-box;
   transition: transform 0.3s ease;
   background: lightgrey;
@@ -170,44 +189,44 @@ header.major h2 {
 
 .footer p {
   margin: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 .about-me-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   color: #333;
 }
 .email-link {
   text-decoration: none;
-  color: black; /* 링크 텍스트를 검정색으로 */
+  color: black; 
   display: flex;
   align-items: center;
 }
 
 .email-link svg {
-  fill: black; /* SVG 아이콘을 검정색으로 */
-  margin-right: 8px; /* 아이콘과 텍스트 사이 간격 */
+  fill: black; 
+  margin-right: 8px; 
 }
 
 .contact-links {
   display: flex;
   align-items: center;
-  gap: 16px; /* 아이콘 간의 간격 */
+  gap: 16px; 
 }
 
 .contact-link {
   text-decoration: none;
-  color: black; /* 링크 텍스트와 아이콘을 검정색으로 설정 */
+  color: black; 
   display: flex;
   align-items: center;
 }
 
 .contact-link svg {
-  fill: black; /* SVG 아이콘을 검정색으로 설정 */
-  margin-right: 8px; /* 아이콘과 텍스트 사이의 간격 */
+  fill: black; 
+  margin-right: 8px; 
 }
 
 .about-me-section, .education-section, .skills-section {

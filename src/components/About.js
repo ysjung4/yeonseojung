@@ -10,13 +10,9 @@ const About = () => {
             <section className="about-me-section">
                 <h2>About Me</h2>
                 <p>
-                    Hi, I'm YeonSeo Jung from Korea, a passionate front-end developer. I graduated with a diploma in
-                    Computer Programming and have spent the last three years working as a front-end developer in South
-                    Korea, where I primarily focused on developing websites and hybrid apps tailored to user
-                    requirements.
-                    Recently, I relocated to London to advance my career in front-end development.
-                    I am highly motivated and thrive on challenges, particularly when it comes to solving problems with
-                    persistence and determination, even when I encounter unfamiliar issues.
+                Hi, I'm YeonSeo Jung, a dedicated front-end developer from South Korea. I hold a diploma in Computer Programming and have accumulated over three years of professional experience building responsive websites and hybrid applications tailored to user needs. My work has primarily focused on delivering intuitive and accessible user experiences through modern frameworks and APIs.
+
+Recently, I relocated to London to further expand my career and gain international experience in front-end development. I’m a highly motivated problem-solver who thrives on challenges—especially when navigating unfamiliar technologies. I take pride in my persistence, adaptability, and continuous desire to learn and grow as a developer.
                 </p>
             </section>
 
@@ -29,16 +25,28 @@ const About = () => {
             </section>
 
             <section className="skills-section">
-                <h2>Skills</h2>
-                <ul className="skills-list">
-                <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Vue</li>
-                    <li>Jquery</li>
-                    <li>HTML & CSS</li>
-                    <li>Java</li>
-                </ul>
-            </section>
+  <h2>Technical Skills</h2>
+  <div className="skill-category">
+    <h3>Frontend</h3>
+    <ul className="skills-list">
+      <li>Vue.js</li>
+      <li>React.js</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+      <li>HTML & CSS</li>
+    </ul>
+  </div>
+  <div className="skill-category">
+    <h3>Backend & Cloud</h3>
+    <ul className="skills-list">
+      <li>Node.js</li>
+      <li>Java</li>
+      <li>Spring</li>
+      <li>SQL</li>
+    </ul>
+  </div>
+</section>
+
             <section className="skills-section">
                 <div className="contact-me-container">
                     <h2>Contact Me</h2>
